@@ -189,8 +189,8 @@ body {
 }
 
 .header-contacts .icon {
-  width: 16px;
-  height: 16px;
+  /* width: 16px;
+  height: 16px; */
   margin-right: 10px;
 }
 
@@ -264,8 +264,8 @@ body {
 }
 
 .advantage-item .icon {
-  width: 70px;
-  height: 70px;
+  /* width: 70px;
+  height: 70px; */
 }
 
 .advantage-item .item-title {
@@ -337,8 +337,8 @@ body {
 }
 
 .team-item .icon {
-  width: 20px;
-  height: 20px;
+  /* width: 20px;
+  height: 20px; */
 }
 
 .team-item .social-icons {
@@ -382,10 +382,10 @@ body {
   border-color: var(--accent-color);
 }
 
-.client-item .icon {
+/* .client-item .icon {
   width: 106px;
   height: 60px;
-}
+} */
 
 /* portfolio page styles */
 .portfolio .container {
@@ -398,6 +398,13 @@ body {
   align-self: center;
   justify-content: center;
   margin-bottom: 50px;
+}
+
+.filter-item .button:hover,
+.filter-item .button:focus,
+.filter-item .button.active {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter-list .filter-item:not(:last-child) {
@@ -415,6 +422,16 @@ body {
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc((100% - 90px) / 3);
+}
+
+.portfolio-case .case-link {
+  display: block;
+}
+
+.portfolio-case .case-link:hover,
+.portfolio-case .case-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-case .case-info {
@@ -502,10 +519,10 @@ body {
   margin-bottom: 20px;
 }
 
-.page-footer .icon {
+/* .page-footer .icon {
   width: 20px;
   height: 20px;
-}
+} */
 
 .page-footer .social-icons {
   display: flex;
